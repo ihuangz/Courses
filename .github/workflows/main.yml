@@ -24,10 +24,6 @@ jobs:
       
       - name: marp-action
         env: 
-          MARP_ARGS: "--theme-set blue.css -I slides/ --output dist/" # this is the important line change since our marp command is different from the standard one
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_TO_BRANCH: master
           BASE_URL: https://ihuangz.github.io/Marp-courses/
-        uses: ralexander-phi/marp-action@0.2
       
