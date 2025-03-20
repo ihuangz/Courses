@@ -94,7 +94,7 @@ $$
 <!-- _header: Image -->
 
 ### Some text on the left
-![bg right:40%](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/14_8_42_47_20250314084246854.png))
+![bg right:20%](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/14_8_42_47_20250314084246854.png)
 
 ---
 <!-- _header: 2 Columns-->
