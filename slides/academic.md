@@ -144,3 +144,55 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam placeat debitis la
 
 </div>
 </div>
+
+---
+
+<!-- _header: Fragmented list-->
+# Fragmented list
+<div class="columns">
+<div>
+
+- One
+- Two
+- Three
+
+</div>
+
+<div>
+
+* Four
+	![width:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_5_1_hzc.jpg)
+	一些解释文字。
+</div>
+</div>
+
+---
+
+<!-- _header: Fragmented list-->
+# How to use columns
+Seismic tomography if the method to image the deep-Earth structures.
+<div class="columns">
+<div>
+
+## Column 1
+
+
+1) One
+2) Two
+3) Three
+
+</div>
+<div>
+
+* ## Column 2
+
+	![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_4_58_1.jpg)
+
+</div>
+<div>
+
+## Column 3
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+
+</div>
+</div>
