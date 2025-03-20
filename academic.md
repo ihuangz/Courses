@@ -14,24 +14,28 @@ style: |-
 ---
 <!-- _class: lead -->
 
-# Marp的使用是不错
+#  Marp的使用是不错
 
-### Beamer可以被替代?
+## Beamer可以被替代?
 
 <br>
 
-**黄周传**
-南京大学
+#### **黄周传**
+#### 南京大学
 2025年3月20日
 
 ---
 
-<!-- _header: 目次 -->
+<!-- 
+_class: lead
+_header: 目次 
+_text-align: center
+-->
 
-1. はじめに
-1. コードブロック
-1. 数式
-1. 図是啥文
+# <font color="#ff0000"> 1. はじめに</font>
+# 2. コードブロック
+# 3. 数式
+# 4. 図是啥文
 
 ---
 
@@ -196,3 +200,11 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 
 </div>
 </div>
+
+---
+<!--
+_class: lead
+_paginate: skip
+-->
+# Thank you very much!
+
