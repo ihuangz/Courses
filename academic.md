@@ -16,37 +16,6 @@ _class: homePage
 黄周传 2025春
 
 
-
----
-<!-- 
-_header: 多层介质折射波走时方程
-_class: contentPage horizontalLayout
--->
-
----
-<!-- header: 'Code blocks' -->
-We can define ``variables`` inline, and code in blocks (with syntax highlighting!!!):
-
-```
-    if (marp) {
-        apply.neobeam();
-    }
-```
-
-
-## Definitions
-Blockquotes with level 4 (####) headings inside get translated to definitions like:
-
-> #### Vector
-> A collection of numbers
-
-## Formulas
-> The length of a vector can be computed by the following formula
-> $$
-||\overline v|| = \sqrt{a^2 + b^2} \\
-\text{where } \overline v = (a,b)
-$$
-
 ---
 
 <!--
@@ -83,17 +52,6 @@ _class: contents
 - **02**倾斜界面折射波走时
 - **03**起伏界面折射波探测
 - **04**天然地震折射波方法
-
----
-<!--
-_paginate: false
-_class: thanksPage
--->
-## 谢谢！
-
-<br/>
-
-**黄周传 2025-03-21**
 
 
 ---
@@ -171,13 +129,14 @@ _class: contentPage horizontalImages
 - item
 - item
 - item
-- item
 
 <p class="break"></p>
 
 ## RHS Title
 - item
 - item
+- - item
+- - item
 
 ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png)
 
@@ -209,3 +168,45 @@ _class: contentPage horizontalImages
 </div>
 </div>
 
+
+---
+<!--
+_paginate: false
+_class: thanksPage
+-->
+## 谢谢！
+
+<br/>
+
+**黄周传 2025-03-21**
+
+
+
+---
+<!--
+_header: 倾斜界面折射波走时
+_class: contentPage 
+-->
+
+
+A quote from my favorite author
+> "Hello" - Author Cool 2024
+
+
+We can define ``variables`` inline, and code in blocks (with syntax highlighting!!!):
+```java
+    if (marp) {
+        apply.neobeam();
+    }
+```
+## Formulas
+> The length of a vector can be computed by the following formula
+> $$
+||\overline v|| = \sqrt{a^2 + b^2} \\
+\text{where } \overline v = (a,b)
+$$
+## Definitions
+Blockquotes with level 4 (####) headings inside get translated to definitions like:
+
+> #### Vector
+> A collection of numbers

@@ -3,30 +3,36 @@ marp: true
 theme: neobeam
 paginate: true
 math: katex
-footer: '**mikael-ros**
-         **A modern take on the LaTeX beamer theme**
-         **Version 0.7, 2024**'
+footer: "**黄周传** **地球物理基础** **2025春**"
 ---
 <!-- _class: title -->
-# A modern take on the LaTeX beamer theme
+# 地球物理基础
 
-## mikael-ros
+### Zhouchuan Huang
 
-> ### Faculty of GitHub
-> University of Marp
+ #### 南京大学 地球科学与工程学院
 
-## Version 0.7, 2024
+#### 2025年春
 
 ![logo GitHub Logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
 
 ---
-<!-- header: 'Table of contents' -->
-1. Normal text
-2. Code blocks
-3. Mathematics
-4. Tables
-5. Images
-6. HTML stuff
+
+<!--
+_class: contents
+_header: ""
+-->
+
+# 目录
+
+- **01**多层介质折射波走时
+<font color="#ff0000"> **02**倾斜界面折射波走时</font>
+- **03**起伏界面折射波探测
+- **04**天然地震折射波方法
+-  **05**天然地震折射波方法
+- **06**天然地震折射波方法
+
+
 ---
 <!-- header: 'Normal text' -->
 **This** is what a regular slide can look like in Neobeam.
@@ -74,8 +80,10 @@ Tables are also decorated in this theme!
 | Some        |  Cool       | Data          |
 ---
 <!-- header: 'Images' -->
+- How could I input a lof of different wordsHow could I input a lof of different wordsHow could I input a lof of different words
 
-![Photo by Joshua J. Cotten on Unsplash](https://images.unsplash.com/photo-1601247387326-f8bcb5a234d4?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
+
+![Photo by Joshua J. Cotten on Unsplash:right w:500px](https://images.unsplash.com/photo-1601247387326-f8bcb5a234d4?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
 
 Images can be left-aligned, centered, and right-aligned!
 
@@ -83,7 +91,7 @@ Images can be left-aligned, centered, and right-aligned!
 <!-- header: 'HTML wonderland' -->
 <!-- This slide only works with HTML enabled -->
 
-<h2>These are all the HTML elements I've styled!</h2>
+## These are all the HTML elements I've styled!
 
 Text can be <mark>marked</mark>, <abbr title="abbreviated">abbr</abbr> and you can quote things inline <q>like this</q>.
 
@@ -94,12 +102,12 @@ You can embed audio like:
 
 ---
 <!--
-_header: 倾斜界面折射波走时
+_header: 双列排版
 -->
 
-<div class="grid-container"> 
+<div class="grid2"> 
 
-<div class="grid-item">
+<div class="grid1">
 
 ### 第一项
 
@@ -108,23 +116,42 @@ _header: 倾斜界面折射波走时
 
 
 
-<div class="grid-item">
+<div class="grid1">
 
-### 第二项
-![h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
+
+![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
 
 </div> 
 </div>
 
-
-
 ---
 <!--
-_class: thanksPage
+_header: 双列排版
 -->
-# 谢谢！
+<div class="col2">
+<div class="left">
 
-<br/>
+# LHS Title
+- item
+- item
+- item
+- item
+</div>
 
-**黄周传 2025-03-21**
+<div class="right">
 
+### Some text here
+
+![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_19_3_31_20250320190331705.png)
+
+</div>
+</div>
+
+---
+<!-- 
+_class: thanks
+_header: ""
+-->
+
+# 谢谢!
+### 黄周传 2025春
