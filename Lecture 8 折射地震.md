@@ -52,7 +52,6 @@ _class: contentPage horizontalLayout
 </div>
 
 
-
 ---
 
 <!-- 

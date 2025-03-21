@@ -23,6 +23,29 @@ _header: 多层介质折射波走时方程
 _class: contentPage horizontalLayout
 -->
 
+---
+<!-- header: 'Code blocks' -->
+We can define ``variables`` inline, and code in blocks (with syntax highlighting!!!):
+
+```
+    if (marp) {
+        apply.neobeam();
+    }
+```
+
+
+## Definitions
+Blockquotes with level 4 (####) headings inside get translated to definitions like:
+
+> #### Vector
+> A collection of numbers
+
+## Formulas
+> The length of a vector can be computed by the following formula
+> $$
+||\overline v|| = \sqrt{a^2 + b^2} \\
+\text{where } \overline v = (a,b)
+$$
 
 ---
 
