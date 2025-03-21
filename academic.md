@@ -1,210 +1,188 @@
 ---
 marp: true
+theme: nju
 paginate: true
-math: katex
-theme: blue
-style: |-
-  .columns {
-    display: flex;
-    gap: 1rem;
-  }
-  .columns > div {
-    flex: 1 1 0;
-  }
----
-<!-- _class: lead -->
-
-#  Marp的使用是不错
-
-## Beamer可以被替代?
-
-<br>
-
-#### **黄周传**
-#### 南京大学
-2025年3月20日
-
 ---
 
-<!-- 
-_class: lead
-_header: 目次 
-_text-align: center
+<!--
+_paginate: false
+_class: homePage
 -->
 
-# <font color="#ff0000"> 1. はじめに</font>
-# 2. コードブロック
-# 3. 数式
-# 4. 図是啥文
+![h:120px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+
+# 8: 折射地震
+## 南京大学 地球科学与工程学院
+黄周传 2025春
+
+
+
+---
+<!-- 
+_header: 多层介质折射波走时方程
+_class: contentPage horizontalLayout
+-->
+
 
 ---
 
-<!-- _header: はじめに -->
+<!--
+_header: 多层介质折射波走时方程
+_class: split
+-->
 
-- Marp とは **Markdown** で**スライド**を作成するためのソフトウェアである。
-  - 基本的な Markdown のシンタックスがサポートされている。
-- Markdown 上で `---` という区切り線を入れるだけで、次のページに移動することができる。$^1$
+## A split slide
 
-> 1: Marp は CommonMark という Markdown の仕様に沿って開発されているため、CommonMark に含まれていない「脚注」の文法（`[^1]` を使うもの）が提供されていない。そこで、https://github.com/marp-team/marp/discussions/150#discussioncomment-1302384 を参照して擬似的に脚注を実現した。
+<div class=ldiv>
 
----
-
-<!-- _header: コードブロック -->
-
-```python
-import torch
-print(torch.cuda.is_available())
-```
-
-こんな感じでコードブロックを書くことができる。
-
-```python
-from transformers import AutoModelForMaskedLM, AutoTokenizer
-model = AutoModelForMaskedLM.from_pretrained("cl-tohoku/bert-base-japanese-whole-word-masking")
-tokenizer = AutoTokenizer.from_pretrained("cl-tohoku/bert-base-japanese-whole-word-masking")
-
-inputs = tokenizer.encode_plus("私はとても[MASK]です。", return_tensors='pt')
-outputs = model(**inputs)
-tokenizer.convert_ids_to_tokens(outputs.logits[0][1:-1].argmax(axis=-1))
-```
-
-横幅は自動調整される（ドキュメントの[Auto-scaling](https://github.com/marp-team/marp-core#auto-scaling-features)を参照）。
-
----
-
-<!-- _header: 数式 -->
-
-$$ I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
-
-$$
-f(x) = \int_{-\infty}^\infty
-    \hat f(\xi)\,e^{2 \pi i \xi x}
-    \,d\xi
-$$
-
-こんな感じで数式を書くことができる。もちろんインラインの $\LaTeX$ も使える。  
-ついでに絵文字も使える:smile:
-
----
-
-<!-- _header: 図是啥文 -->
-### 1. 加个标题
-1. まず[このいらすとやのリンク](https://www.irasutoya.com/2018/10/blog-post_723.html)から画像（`kenkyu_woman_seikou.png`）を右クリックでダウンロードしてください。
-2. この Markdown のあるディレクトリの中に `images` という名前のディレクトリを作り、先ほどダウンロードした画像を配置してください。これで準備が整いました。
-## 2.加个标题
-这是第二个了
-
----
-<!-- _header: Image -->
-
-### Some text on the left
-![bg right:20%](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/14_8_42_47_20250314084246854.png)
-
----
-<!-- _header: 2 Columns-->
-
-
-<div class="columns">
-<div>
-
-## Column 1
-
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam placeat debitis labore quidem exercitationem architecto.
-![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/14_8_42_47_20250314084246854.png)
-
-</div>
-<div>
-
-## Column 2
-
-![width:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/14_8_42_47_20250314084246854.png)
-
-</div>
+### Title for the left panel
+- listed item
+- listed item
+- listed item
 </div>
 
----
-<!-- _header: 3 Columns-->
+<div class=rdiv>
 
-<div class="columns">
-<div>
+![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
 
-## Column 1
-
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam placeat debitis labore quidem exercitationem architecto.
-
-</div>
-<div>
-
-## Column 2
-
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam placeat debitis labore quidem exercitationem architecto.
-
-</div>
-<div>
-
-## Column 3
-
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam placeat debitis labore quidem exercitationem architecto.
-
-</div>
 </div>
 
 ---
 
-<!-- _header: Fragmented list-->
-# Fragmented list
-<div class="columns">
-<div>
+<!--
+_paginate: false 
+_class: contents
+-->
 
-- One
-- Two
-- Three
+## 目录
 
-</div>
-
-<div>
-
-* Four
-	![width:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_5_1_hzc.jpg)
-	一些解释文字。
-</div>
-</div>
+- **01**多层介质折射波走时
+- **02**倾斜界面折射波走时
+- **03**起伏界面折射波探测
+- **04**天然地震折射波方法
 
 ---
+<!--
+_paginate: false
+_class: thanksPage
+-->
+## 谢谢！
 
-<!-- _header: Fragmented list-->
-# How to use columns
-Seismic tomography if the method to image the deep-Earth structures.
-<div class="columns">
-<div>
+<br/>
 
-## Column 1
+**黄周传 2025-03-21**
 
 
-1) One
-2) Two
-3) Three
+---
+<!--
+_header: 倾斜界面折射波走时
+_class: contentPage 
+-->
 
+<div class="container">
+
+<div class="column left"> 
+
+### 左侧内容 
+
+- 左侧内容 
+
+</div> 
+
+<div class="column right"> 
+
+### 右侧内容 
+
+![w:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
 </div>
-<div>
 
-* ## Column 2
-
-	![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_4_58_1.jpg)
-
-</div>
-<div>
-
-## Column 3
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-
-</div>
 </div>
 
 ---
 <!--
-_class: lead
-_paginate: skip
+_header: 倾斜界面折射波走时
+_class: contentPage 
 -->
-# Thank you very much!
+
+<div class="grid-container"> 
+
+<div class="grid-item">
+
+### 第一项
+
+这是一个多列文本示例。文本将自动分成三列显示。 这是一个多列文本示例。文本将自动分成三列显示。 这是一个多列文本示例。文本将自动分成三列显示。 这是一个多列文本示例。文本将自动分成三列显示。 这是一个多列文本示例。
+</div> 
+
+
+
+<div class="grid-item">
+
+### 第二项
+![w:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
+
+</div> 
+</div>
+
+
+---
+<!--
+_header: 倾斜界面折射波走时
+_class: contentPage horizontalImages
+-->
+
+| Several                                                                                                        | TImes                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png) | ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png) |
+
+
+---
+<!--
+_header: 倾斜界面折射波走时
+_class: contentPage horizontalImages
+-->
+
+
+<div class="twocols">
+
+## LHS Title
+- item
+- item
+- item
+- item
+
+<p class="break"></p>
+
+## RHS Title
+- item
+- item
+
+![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png)
+
+</div>
+
+---
+<!--
+_header: 倾斜界面折射波走时
+_class: contentPage horizontalImages
+-->
+
+<div class="colwrap">
+<div class="left">
+
+## LHS Title
+- item
+- item
+- item
+- item
+</div>
+
+<div class="right inverted">
+
+## RHS Title
+- item
+
+![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png)
+
+</div>
+</div>
 
