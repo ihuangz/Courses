@@ -70,7 +70,7 @@ _header: ""
 地震反演使观测走时($t^{obs}$)与理论走时($t^{pre}$)间的走时残差($r$)最小。
 $$\begin{equation*}
 \begin{aligned}
-& t^{obs} =\int_{(s+\delta s)}\frac{ds}{c(s)+\delta c(s)}=\int_{(s+\delta s)}(u(s)+\delta u(s))\cdot ds \\
+& t^{obs} =\int_{(s+\delta s)}\frac{ds}{c(s)+\delta c(s)}\approx\int_{(s+\delta s)}(u(s)+\delta u(s))\cdot ds \\
 
 & t^{pre} =\int_{s}\frac{ds}{c(s)}=\int_{s}u(s)\cdot ds \\
 

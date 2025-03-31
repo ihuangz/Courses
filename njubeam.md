@@ -99,9 +99,7 @@ so many many words, so many many words, so many many words,
 
   ### Column 3
 
-so many many words, so many many words, so many many words, 
-  so many many words, so many many words, so many many words, so many many words, 
-  so many many words, 
+so many many words, so many many words, so many many words
   </div>
 
 
@@ -109,9 +107,7 @@ so many many words, so many many words, so many many words,
 
   ### Column 4
 
-so many many words, so many many words, so many many words, 
-  so many many words, so many many words, so many many words, so many many words, 
-  so many many words, 
+so many many words, so many many words, so many many words
   </div>
 
 </div>
@@ -184,7 +180,7 @@ Images can be left-aligned, centered, and right-aligned!
 
 ## These are all the HTML elements I've styled!
 
-Text can be <mark>marked</mark>, <abbr title="abbreviated">abbr</abbr> and you **can** *quote* ==<u>things</u>== inline <q>like this</q>.
+Text can be <mark>marked</mark>, <abbr title="abbreviated">abbr</abbr> and you **can** *quote* <u>things</u> inline <q>like this</q>.
 
 [A video](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/23_12_0_11_test.mp4)
 
