@@ -5,6 +5,7 @@ paginate: true
 math: katex
 footer: "**黄周传** **地球物理基础** **2025春**"
 ---
+
 <!-- _class: title -->
 # 12: 地震震源
 
@@ -15,6 +16,7 @@ footer: "**黄周传** **地球物理基础** **2025春**"
 #### 2025年春
 
 ![logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+
 
 ---
 <!--
@@ -85,11 +87,12 @@ _class: hLayout
 -->
 
 + 和达-贝尼奥夫带
-+ ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_49_55_20250331094955152.png)
++ ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_49_55_20250331094955152.png)
 
 
-- ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_48_53_20250331094853353.png)
 - 为什么会发生中深源地震？
+- ![image.png  h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_48_53_20250331094853353.png)
+
 
 ---
 <!-- header: 地震震级
@@ -106,7 +109,8 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_30_2_20250331093001552.png)
+- ### 主要震级类型
+- ![image.png w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_30_2_20250331093001552.png)
 
 + ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_30_54_20250331093053966.png)
 
@@ -204,7 +208,7 @@ _class: hLayout
 
 - ![image.png h:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_57_16_20250331095716369.png)
 
-+ ![](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_40_26_wenchuan.gif)
++ ![h:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_40_26_wenchuan.gif)
 
 
 
@@ -236,8 +240,7 @@ _class:
 _class: hLayout
 -->
 
-![image.png w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_50_42_20250331105042105.png)
-
+![w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_50_42_20250331105042105.png)
 
 ---
 <!-- header: 地震震源机制
@@ -303,7 +306,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_49_20250331105648704.png)
+![image.png w:1000px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_49_20250331105648704.png)
 
 
 ---
@@ -326,9 +329,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-![gCAP.png h:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_0_48_gCAP.png)
+- ![gCAP.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_0_48_gCAP.png)
 
-* ![gCAP-depth.jpg h:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_2_15_gCAP-depth.jpg)
+* ![gCAP-depth.jpg h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_2_15_gCAP-depth.jpg)
 
 
 ---
@@ -353,8 +356,8 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_50_42_20250331105042105.png)
-
+![image.png center w:1500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_33_44_20250331113343825.png)
+* 对于不同类型的断层，地动仪预测完全相反的方向
 
 ---
 <!-- 
