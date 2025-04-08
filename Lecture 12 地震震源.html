@@ -103,7 +103,7 @@
 /*-----------------------------------------------------------*/
 /*********/
 /* Lists */
-/*********/div#\:\$p>svg>foreignObject>section ol,div#\:\$p>svg>foreignObject>section ul{line-height:1.75;margin:0 0;   /* Z. Huang*/ 
+/*********/div#\:\$p>svg>foreignObject>section ol,div#\:\$p>svg>foreignObject>section ul{line-height:1.75;margin:0 0 0 2%;   /* Z. Huang*/ 
     /*margin: calc(.5*var(--text-padding)) 0;*/padding:0 1em /* Compensate for list number / dot */}
 
 /*-----------------------------------------------------------*/
@@ -119,7 +119,7 @@
 
 /* Definition blocks */div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)){display:flex;flex-direction:column;padding:0px;border:none; /* Remove line */--block-fg-color:var(--highlight-color-one);--block-bg-color:hsl(from var(--block-fg-color) h calc(s - var(--saturation-decreaser) * var(--build-multiplier) * .1) calc(l - var(--brightness-decreaser) * var(--build-multiplier) * .075));color:var(--text-color-negative-lightest)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4))>*{margin:0;padding:var(--text-padding);border-radius:var(--radius)}
 
-/* The selector is redundant, it's just for clarity */div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) :is(h4,marp-h4){flex-basis:var(--definition-height); /* Take up that height */background-color:var(--block-fg-color)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) p{min-height:var(--definition-height)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) ul{min-height:var(--definition-height);margin:30px}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) ol{min-height:var(--definition-height);margin:30px}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)):nth-of-type(2n){--block-fg-color:var(--highlight-color-two)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)):nth-of-type(3n){--block-fg-color:var(--highlight-color-three)}
+/* The selector is redundant, it's just for clarity */div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) :is(h4,marp-h4){flex-basis:var(--definition-height); /* Take up that height */background-color:var(--block-fg-color)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) p{min-height:var(--definition-height);margin:0 0}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) ul{min-height:var(--definition-height);margin:0 30px}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)) ol{min-height:var(--definition-height);margin:0 30px}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)):nth-of-type(2n){--block-fg-color:var(--highlight-color-two)}div#\:\$p>svg>foreignObject>section blockquote:has(>:is(h4,marp-h4)):nth-of-type(3n){--block-fg-color:var(--highlight-color-three)}
 /*===================*/
 
 /* Code blocks */div#\:\$p>svg>foreignObject>section :is(pre,marp-pre),div#\:\$p>svg>foreignObject>section code,div#\:\$p>svg>foreignObject>section samp{font-family:var(--monospace-font);
@@ -155,7 +155,7 @@
 
 
 
-/* multiple columns */div#\:\$p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(auto-fit,minmax(20%,1fr));gap:3%}div#\:\$p>svg>foreignObject>section .column1{margin:0%}div#\:\$p>svg>foreignObject>section .column2{margin:0%;grid-column:span 2}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure>figcaption{position:absolute;border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content],div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#\:\$p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="title" data-theme="njubeam" class="title" data-marpit-pagination="1" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:title;--theme:njubeam;" data-marpit-pagination-total="39">
+/* multiple columns */div#\:\$p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(auto-fit,minmax(20%,1fr));gap:3%}div#\:\$p>svg>foreignObject>section .column1{margin:0%}div#\:\$p>svg>foreignObject>section .column2{margin:0%;grid-column:span 2}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure>figcaption{position:absolute;border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content],div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#\:\$p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="title" data-theme="njubeam" class="title" data-marpit-pagination="1" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:title;--theme:njubeam;" data-marpit-pagination-total="40">
 <h1 id="12-%E5%9C%B0%E9%9C%87%E9%9C%87%E6%BA%90">12: 地震震源</h1>
 <h3 id="%E9%BB%84%E5%91%A8%E4%BC%A0">黄周传</h3>
 <h4 id="%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6-%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2">南京大学 地球科学与工程学院</h4>
@@ -163,7 +163,7 @@
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png" alt="logo" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="contents" data-theme="njubeam" class="contents" data-marpit-pagination="2" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:contents;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="contents" data-theme="njubeam" class="contents" data-marpit-pagination="2" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:contents;--theme:njubeam;" data-marpit-pagination-total="40">
 <h1 id="%E7%9B%AE%E5%BD%95">目录</h1>
 <ul>
 <li><strong>01</strong>地震震源定位方法</li>
@@ -173,7 +173,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="3" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="3" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>缅甸曼德勒地震</header>
 
 <blockquote>
@@ -187,7 +187,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="4" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="4" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震定位</header>
 
 <ul>
@@ -200,19 +200,19 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="5" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="5" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震定位</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_45_5_20250331094504728.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="6" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="6" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震定位</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_46_34_20250331094634136.png" alt="image.png" style="width:1000px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="7" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="7" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震定位</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_45_27_20250331094526940.png" alt="image.png" style="width:800px;" /></p>
@@ -228,7 +228,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="8" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震定位" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="8" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震定位;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震定位</header>
 
 <ul>
@@ -241,7 +241,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="9" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="9" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级</header>
 
 <ul>
@@ -252,7 +252,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="10" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="10" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级</header>
 
 <ul>
@@ -266,7 +266,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="11" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="11" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级</header>
 
 <ul>
@@ -277,7 +277,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="12" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="12" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_32_26_20250331093226131.png" alt="image.png" style="width:900px;" /></p>
@@ -286,7 +286,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="13" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="13" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级</header>
 
 <ul>
@@ -297,13 +297,13 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="14" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="14" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级 vs 烈度</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_54_56_20250331095455796.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="15" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="15" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级 vs 烈度</header>
 
 <ul>
@@ -314,7 +314,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="16" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震级 vs 烈度" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="16" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震级 vs 烈度;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震级 vs 烈度</header>
 
 <ul>
@@ -326,20 +326,20 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="17" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="17" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震破裂过程</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_33_56_20250331103356369.png" alt="image.png" style="width:600px;" /><br />
 <img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_34_30_20250331103429856.png" alt="image.png" style="width:600px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="18" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="18" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震破裂过程</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_36_24_20250331103624520.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="19" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="19" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震破裂过程</header>
 
 <ul>
@@ -350,7 +350,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="20" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震破裂过程" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="20" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震破裂过程;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震破裂过程</header>
 
 <ul>
@@ -361,91 +361,73 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="21" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="39">
-<header>缅甸曼德勒地震</header>
-
-<p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_43_18_WechatIMG1157.jpg" alt="WechatIMG1157.jpg" /></p>
-<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="22" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="39">
-<header>缅甸曼德勒地震</header>
-
-<p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_44_7_WechatIMG1156.jpg" alt="WechatIMG1156.jpg center" style="width:700px;" /></p>
-<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="23" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="39">
-<header>缅甸曼德勒地震</header>
-
-<p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_47_52_R-C.b767f0b1886dbd9133ae378a3c3b4f2f.jpeg" alt="center" style="width:800px;" /></p>
-<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="24" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="21" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_50_42_20250331105042105.png" alt="" style="width:900px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="25" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="22" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_51_42_20250331105142324.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="26" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="23" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_52_31_20250331105231058.png" alt="image.png" style="height:500px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="27" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="24" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_53_45_20250331105344929.png" alt="image.png" style="height:500px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="28" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="25" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_54_27_20250331105426890.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="29" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="26" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_55_9_20250331105509400.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="30" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="27" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_55_40_20250331105539999.png" alt="image.png" style="width:1100px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="31" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="28" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_11_20250331105611401.png" alt="image.png" style="width:1100px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="32" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="29" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_49_20250331105648704.png" alt="image.png" style="width:1000px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="33" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="30" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_57_19_20250331105718871.png" alt="image.png" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="34" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：P波初动" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="31" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：P波初动;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：P波初动</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_57_39_20250331105739620.png" alt="image.png" style="height:550px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：gCAP" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="35" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：gCAP;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：gCAP" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="32" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：gCAP;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：gCAP</header>
 
 <ul>
@@ -456,13 +438,13 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：地壳应力场" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="36" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：地壳应力场;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：地壳应力场" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="33" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：地壳应力场;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：地壳应力场</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_3_53_pic-of-the-day-67_focal-mechanism.png" alt="" style="width:800px;" /></p>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：地壳应力场" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="37" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：地壳应力场;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制：地壳应力场" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="34" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制：地壳应力场;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制：地壳应力场</header>
 
 <ul>
@@ -471,7 +453,7 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="38" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-marpit-fragments="1" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="地震震源机制" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="35" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:地震震源机制;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
 <header>地震震源机制</header>
 
 <p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_33_44_20250331113343825.png" alt="image.png center" style="width:1500px;" /></p>
@@ -480,7 +462,44 @@
 </ul>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="thanks" data-theme="njubeam" class="thanks" data-marpit-pagination="39" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:thanks;--theme:njubeam;" data-marpit-pagination-total="39">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="36" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="40">
+<header>缅甸曼德勒地震</header>
+
+<p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_47_52_R-C.b767f0b1886dbd9133ae378a3c3b4f2f.jpeg" alt="center" style="width:800px;" /></p>
+<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-theme="njubeam" data-marpit-pagination="37" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--theme:njubeam;" data-marpit-pagination-total="40">
+<header>缅甸曼德勒地震</header>
+
+<p><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_43_18_WechatIMG1157.jpg" alt="WechatIMG1157.jpg" /></p>
+<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="38" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
+<header>缅甸曼德勒地震</header>
+
+<ul>
+<li><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_18_2_20250402081802252.png" alt="" style="height:400px;" /></li>
+</ul>
+<ul>
+<li><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_19_13_20250402081912711.png" alt="image.png" style="height:400px;" /></li>
+</ul>
+<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-header="缅甸曼德勒地震" data-class="hLayout" data-theme="njubeam" class="hLayout" data-marpit-pagination="39" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--header:缅甸曼德勒地震;--class:hLayout;--theme:njubeam;" data-marpit-pagination-total="40">
+<header>缅甸曼德勒地震</header>
+
+<ul>
+<li><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_8_42_20250402080842123.png" alt="image.png" style="height:500px;" /></li>
+</ul>
+<ul>
+<li><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_9_3_20250402080902590.png" alt="image.png" style="height:500px;" /></li>
+</ul>
+<ul>
+<li><img src="https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_44_7_WechatIMG1156.jpg" alt="WechatIMG1156.jpg center" style="height:300px;" /></li>
+</ul>
+<footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" data-paginate="true" data-footer="**黄周传** **地球物理基础** **2025春**" data-class="thanks" data-theme="njubeam" class="thanks" data-marpit-pagination="40" style="--paginate:true;--footer:**黄周传** **地球物理基础** **2025春**;--class:thanks;--theme:njubeam;" data-marpit-pagination-total="40">
 <h1 id="%E8%B0%A2%E8%B0%A2">谢谢!</h1>
 <h3 id="%E9%BB%84%E5%91%A8%E4%BC%A0-2025%E6%98%A5">黄周传 2025春</h3>
 <footer><strong>黄周传</strong> <strong>地球物理基础</strong> <strong>2025春</strong></footer>

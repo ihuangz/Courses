@@ -31,6 +31,23 @@ _header: ""
 - **04**天然地震
 - **05**天然地震折射波
 
+
+---
+<!-- 
+_header: three columns
+_class: hLayout
+-->
+
+- test
+- test
+- 
+
+
+column 1
+
++ column 2
+
+- column 3
 ---
 <!-- 
 _header: three columns

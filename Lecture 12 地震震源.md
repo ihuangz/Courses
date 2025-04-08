@@ -5,7 +5,7 @@ paginate: true
 math: katex
 footer: "**黄周传** **地球物理基础** **2025春**"
 ---
-
+079FCB69A1708F8
 <!-- _class: title -->
 # 12: 地震震源
 
@@ -213,29 +213,6 @@ _class: hLayout
 
 
 ---
-<!-- header: 缅甸曼德勒地震
-_class: 
--->
-
-![WechatIMG1157.jpg](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_43_18_WechatIMG1157.jpg)
-
-
----
-<!-- header: 缅甸曼德勒地震
-_class: 
--->
-
-![WechatIMG1156.jpg center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_44_7_WechatIMG1156.jpg)
-
-
----
-<!-- header: 缅甸曼德勒地震
-_class: 
--->
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_47_52_R-C.b767f0b1886dbd9133ae378a3c3b4f2f.jpeg)
-
-
----
 <!-- header: 地震震源机制
 _class: hLayout
 -->
@@ -358,6 +335,44 @@ _class: hLayout
 
 ![image.png center w:1500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_33_44_20250331113343825.png)
 * 对于不同类型的断层，地动仪预测完全相反的方向
+
+
+---
+<!-- header: 缅甸曼德勒地震
+_class: 
+-->
+![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_47_52_R-C.b767f0b1886dbd9133ae378a3c3b4f2f.jpeg)
+
+
+---
+<!-- header: 缅甸曼德勒地震
+_class: 
+-->
+
+![WechatIMG1157.jpg](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_43_18_WechatIMG1157.jpg)
+
+
+---
+<!-- header: 缅甸曼德勒地震
+_class: hLayout
+-->
+
++ ![h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_18_2_20250402081802252.png)
+
+
+- ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_19_13_20250402081912711.png)
+
+
+---
+<!-- header: 缅甸曼德勒地震
+_class: hLayout
+-->
++ ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_8_42_20250402080842123.png) 
+
+-  ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_9_3_20250402080902590.png)
+
++ ![WechatIMG1156.jpg center h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_44_7_WechatIMG1156.jpg)
+
 
 ---
 <!-- 
