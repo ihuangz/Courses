@@ -69,7 +69,7 @@ _class:
 -->
 
 - ###  橄榄石晶体
-![center h:350](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/9_20_12_12_20250409201212028.png)
+![center w:900](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/9_20_12_12_20250409201212028.png)
 
 ---
 <!-- header: 矿物各向异性
@@ -78,7 +78,7 @@ _class: hLayout
 + ### 橄榄石
 + ### 顽辉石
 + ### 透辉石
-- ![h:550](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/9_20_13_10_20250409201310809.png)
+- ![w:600](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/9_20_13_10_20250409201310809.png)
 
 
 ---
