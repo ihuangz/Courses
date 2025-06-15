@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: nju
+theme: njubeam
 paginate: true
 ---
 
@@ -28,6 +28,7 @@ _class: contents
 - **02**倾斜界面折射波走时
 - **03**起伏界面折射波探测
 - **04**天然地震折射波方法
+
 
 ---
 <!-- 
