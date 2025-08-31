@@ -5,7 +5,7 @@ paginate: true
 math: katex
 footer: "**黄周传** **地球物理基础** **2025春**"
 ---
-079FCB69A1708F8
+
 <!-- _class: title -->
 # 12: 地震震源
 
