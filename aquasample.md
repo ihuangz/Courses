@@ -50,7 +50,7 @@ _class: hLayout
 
 * ## Column 2
 
-	![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_4_58_1.jpg)
+	![width:200px](http://114.212.123.179:5009/api/images/20260130160516570.jpg)
 	1) One: Where you are ready for the comment: please use some of your profile.
 
 
@@ -69,7 +69,7 @@ _class: hLayout
 <div>
 
 * Four
-	![width:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_5_1_hzc.jpg)
+	![width:300px](http://114.212.123.179:5009/api/images/20260130160516571.jpg)
 	一些解释文字。
 </div>
 </div>
@@ -92,7 +92,7 @@ Seismic tomography if the method to image the deep-Earth structures.
 
 * ## Column 2
 
-	![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_4_58_1.jpg)
+	![width:200px](http://114.212.123.179:5009/api/images/20260130160516570.jpg)
 
 </div>
 <div>

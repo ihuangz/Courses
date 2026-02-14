@@ -15,7 +15,7 @@ footer: "**黄周传** **地球物理基础** **2025春**"
 
 #### 2025年春
 
-![logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+![logo](http://114.212.123.179:5009/api/images/20260130160508127.png)
 
 
 ---
@@ -49,15 +49,15 @@ _class:
 _class: hLayout
 -->
 + 走时曲线
-+ ![image.png h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_20_33_20250331092033588.png)
++ ![image.png h:300px](http://114.212.123.179:5009/api/images/20260130160508129.png)
 - 多圆交汇
-- ![image.png h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_21_18_20250331092118264.png)
+- ![image.png h:300px](http://114.212.123.179:5009/api/images/20260130160508130.png)
 
 ---
 <!-- header: 地震定位
 _class: hLayout
 -->
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_45_5_20250331094504728.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508131.png)
 
 
 
@@ -65,13 +65,13 @@ _class: hLayout
 <!-- header: 地震定位
 _class: hLayout
 -->
-![image.png w:1000px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_46_34_20250331094634136.png)
+![image.png w:1000px](http://114.212.123.179:5009/api/images/20260130160508132.png)
 
 ---
 <!-- header: 地震定位
 _class: hLayout
 -->
-![image.png w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_45_27_20250331094526940.png)
+![image.png w:800px](http://114.212.123.179:5009/api/images/20260130160508133.png)
 
 - ### 主要地震带
 - 环太平洋地震带
@@ -87,11 +87,11 @@ _class: hLayout
 -->
 
 + 和达-贝尼奥夫带
-+ ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_49_55_20250331094955152.png)
++ ![image.png h:400px](http://114.212.123.179:5009/api/images/20260130160508134.png)
 
 
 - 为什么会发生中深源地震？
-- ![image.png  h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_48_53_20250331094853353.png)
+- ![image.png  h:400px](http://114.212.123.179:5009/api/images/20260130160508135.png)
 
 
 ---
@@ -99,9 +99,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-- ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_28_8_20250331092808313.png)
+- ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508136.png)
 
-+ ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_27_14_20250331092714035.png)
++ ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508137.png)
 
 
 ---
@@ -110,37 +110,37 @@ _class: hLayout
 -->
 
 - ### 主要震级类型
-- ![image.png w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_30_2_20250331093001552.png)
+- ![image.png w:700px](http://114.212.123.179:5009/api/images/20260130160508138.png)
 
-+ ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_30_54_20250331093053966.png)
-
----
-<!-- header: 地震震级
-_class: hLayout
--->
-
-+ ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_33_45_20250331093345590.png)
-
-- ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_34_30_20250331093430170.png)
-
++ ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508139.png)
 
 ---
 <!-- header: 地震震级
 _class: hLayout
 -->
 
-![image.png w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_32_26_20250331093226131.png)
++ ![image.png h:400px](http://114.212.123.179:5009/api/images/20260130160508140.png)
 
-* ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_39_17_20250331093917011.png)
+- ![image.png h:400px](http://114.212.123.179:5009/api/images/20260130160508141.png)
+
 
 ---
 <!-- header: 地震震级
 _class: hLayout
 -->
 
-+ ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_42_34_20250331094234432.png)
+![image.png w:900px](http://114.212.123.179:5009/api/images/20260130160508142.png)
 
-* ![image.png w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_35_55_20250331093555531.png)
+* ![image.png](http://114.212.123.179:5009/api/images/20260130160508143.png)
+
+---
+<!-- header: 地震震级
+_class: hLayout
+-->
+
++ ![image.png](http://114.212.123.179:5009/api/images/20260130160508144.png)
+
+* ![image.png w:900px](http://114.212.123.179:5009/api/images/20260130160508145.png)
 
 
 ---
@@ -148,7 +148,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_54_56_20250331095455796.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508146.png)
 
 
 
@@ -157,9 +157,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-- ![image.png h:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_56_27_20250331095627138.png)
+- ![image.png h:450px](http://114.212.123.179:5009/api/images/20260130160508147.png)
 
-* ![image.png :250px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_57_16_20250331095716369.png)
+* ![image.png :250px](http://114.212.123.179:5009/api/images/20260130160508148.png)
 
 
 ---
@@ -168,18 +168,9 @@ _class: hLayout
 -->
 
 - 断层**面**
-- ![image.png w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_31_45_20250331103144549.png)
+- ![image.png w:500px](http://114.212.123.179:5009/api/images/20260130160508149.png)
 
-* ![image.png w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_33_1_20250331103301366.png)
-
-
----
-<!-- header: 地震破裂过程
-_class: hLayout
--->
-
-![image.png w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_33_56_20250331103356369.png)
-![image.png w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_34_30_20250331103429856.png)
+* ![image.png w:600px](http://114.212.123.179:5009/api/images/20260130160508150.png)
 
 
 ---
@@ -187,7 +178,16 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_36_24_20250331103624520.png)
+![image.png w:600px](http://114.212.123.179:5009/api/images/20260130160508151.png)
+![image.png w:600px](http://114.212.123.179:5009/api/images/20260130160508152.png)
+
+
+---
+<!-- header: 地震破裂过程
+_class: hLayout
+-->
+
+![image.png](http://114.212.123.179:5009/api/images/20260130160508153.png)
 
 
 
@@ -196,9 +196,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-- ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_37_1_20250331103701394.png)
+- ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508154.png)
 
-* ![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_38_11_sumatra_small.gif)
+* ![h:500px](http://114.212.123.179:5009/api/images/20260130160508155.gif)
 
 
 ---
@@ -206,9 +206,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-- ![image.png h:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_9_57_16_20250331095716369.png)
+- ![image.png h:450px](http://114.212.123.179:5009/api/images/20260130160508148.png)
 
-+ ![h:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_40_26_wenchuan.gif)
++ ![h:450px](http://114.212.123.179:5009/api/images/20260130160508156.gif)
 
 
 
@@ -217,31 +217,21 @@ _class: hLayout
 _class: hLayout
 -->
 
-![w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_50_42_20250331105042105.png)
+![w:900px](http://114.212.123.179:5009/api/images/20260130160508157.png)
 
 ---
 <!-- header: 地震震源机制
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_51_42_20250331105142324.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508158.png)
 
 
 ---
 <!-- header: 地震震源机制：P波初动
 _class: hLayout
 -->
-![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_52_31_20250331105231058.png)
-
-
-
----
-<!-- header: 地震震源机制：P波初动
-_class: hLayout
--->
-
-![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_53_45_20250331105344929.png)
-
+![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508159.png)
 
 
 
@@ -250,7 +240,17 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_54_27_20250331105426890.png)
+![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508160.png)
+
+
+
+
+---
+<!-- header: 地震震源机制：P波初动
+_class: hLayout
+-->
+
+![image.png](http://114.212.123.179:5009/api/images/20260130160508161.png)
 
 
 
@@ -259,7 +259,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_55_9_20250331105509400.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508162.png)
 
 
 ---
@@ -267,7 +267,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:1100px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_55_40_20250331105539999.png)
+![image.png w:1100px](http://114.212.123.179:5009/api/images/20260130160508163.png)
 
 
 ---
@@ -275,7 +275,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:1100px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_11_20250331105611401.png)
+![image.png w:1100px](http://114.212.123.179:5009/api/images/20260130160508164.png)
 
 
 ---
@@ -283,7 +283,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:1000px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_56_49_20250331105648704.png)
+![image.png w:1000px](http://114.212.123.179:5009/api/images/20260130160508165.png)
 
 
 ---
@@ -291,14 +291,14 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_57_19_20250331105718871.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508166.png)
 
 
 ---
 <!-- header: 地震震源机制：P波初动
 _class: hLayout
 -->
-![image.png h:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_57_39_20250331105739620.png)
+![image.png h:550px](http://114.212.123.179:5009/api/images/20260130160508167.png)
 
 
 ---
@@ -306,9 +306,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-- ![gCAP.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_0_48_gCAP.png)
+- ![gCAP.png h:500px](http://114.212.123.179:5009/api/images/20260130160508168.png)
 
-* ![gCAP-depth.jpg h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_2_15_gCAP-depth.jpg)
+* ![gCAP-depth.jpg h:500px](http://114.212.123.179:5009/api/images/20260130160508169.jpg)
 
 
 ---
@@ -316,7 +316,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_3_53_pic-of-the-day-67_focal-mechanism.png)
+![w:800px](http://114.212.123.179:5009/api/images/20260130160508170.png)
 
 
 ---
@@ -325,7 +325,7 @@ _class: hLayout
 -->
 
 - 喜马拉雅山震源机制解
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_4_33_20250331110433564.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160508171.png)
 
 
 ---
@@ -333,7 +333,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png center w:1500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_11_33_44_20250331113343825.png)
+![image.png center w:1500px](http://114.212.123.179:5009/api/images/20260130160508172.png)
 * 对于不同类型的断层，地动仪预测完全相反的方向
 
 
@@ -341,7 +341,7 @@ _class: hLayout
 <!-- header: 缅甸曼德勒地震
 _class: 
 -->
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_47_52_R-C.b767f0b1886dbd9133ae378a3c3b4f2f.jpeg)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160508173.jpg)
 
 
 ---
@@ -349,7 +349,7 @@ _class:
 _class: 
 -->
 
-![WechatIMG1157.jpg](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_43_18_WechatIMG1157.jpg)
+![WechatIMG1157.jpg](http://114.212.123.179:5009/api/images/20260130160508174.jpg)
 
 
 ---
@@ -357,21 +357,21 @@ _class:
 _class: hLayout
 -->
 
-+ ![h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_18_2_20250402081802252.png)
++ ![h:400px](http://114.212.123.179:5009/api/images/20260130160508175.png)
 
 
-- ![image.png h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_19_13_20250402081912711.png)
+- ![image.png h:400px](http://114.212.123.179:5009/api/images/20260130160508176.png)
 
 
 ---
 <!-- header: 缅甸曼德勒地震
 _class: hLayout
 -->
-+ ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_8_42_20250402080842123.png) 
++ ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508177.png) 
 
--  ![image.png h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/2_8_9_3_20250402080902590.png)
+-  ![image.png h:500px](http://114.212.123.179:5009/api/images/20260130160508178.png)
 
-+ ![WechatIMG1156.jpg center h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/31_10_44_7_WechatIMG1156.jpg)
++ ![WechatIMG1156.jpg center h:300px](http://114.212.123.179:5009/api/images/20260130160508179.jpg)
 
 
 ---

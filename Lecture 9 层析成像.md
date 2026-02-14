@@ -14,7 +14,7 @@ footer: "**黄周传** **地球物理基础** **2025春**"
 
 #### 2025年春
 
-![logo GitHub Logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+![logo GitHub Logo](http://114.212.123.179:5009/api/images/20260130160513879.png)
 
 ---
 
@@ -43,7 +43,7 @@ _header: ""
 
 <div class="column2">
 
-![center](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_8_20_20250326090820475.png)
+![center](http://114.212.123.179:5009/api/images/20260130160513881.png)
 
 
 </div></div>
@@ -53,9 +53,9 @@ _header: ""
 <!-- header: 层析成像基本原理 -->
 
 - 通过旋转发射源与接收器，对人体进行360°的扫描。
-![center w:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_9_20_20250326090920205.png)
+![center w:550px](http://114.212.123.179:5009/api/images/20260130160513882.png)
 
-* ![center w:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_14_16_20250326091416110.png)
+* ![center w:550px](http://114.212.123.179:5009/api/images/20260130160513883.png)
 
 ---
 <!-- header: 层析成像基本原理 -->
@@ -116,7 +116,7 @@ r & =\frac{\partial T}{\partial\lambda}\cdot\Delta\lambda+\frac{\partial T}{\par
 
 </div><div>
 
- ![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_40_35_20250326094035739.png)
+ ![w:500px](http://114.212.123.179:5009/api/images/20260130160513885.png)
 
 </div></div>
 
@@ -127,11 +127,11 @@ r & =\frac{\partial T}{\partial\lambda}\cdot\Delta\lambda+\frac{\partial T}{\par
 <div>
 
 ### 敏感核
-![center w:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_31_32_20250326093132034.png)
+![center w:400px](http://114.212.123.179:5009/api/images/20260130160513886.png)
 </div><div>
 
 ### 分辨率测试
-![w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_9_30_24_20250326093023998.png)
+![w:900px](http://114.212.123.179:5009/api/images/20260130160513887.png)
 </div>
 </div>
 
@@ -152,20 +152,20 @@ _header: ""
 <!--层析成像基经典应用-->
 ### 人工地震成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_40_10_20250326114010205.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513888.png)
 
 
 ---
 <!--层析成像基经典应用-->
 ### 人工地震成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_40_44_20250326114044706.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513889.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_47_38_20250326114738583.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513890.png)
 
 ---
 <!--层析成像基经典应用-->
@@ -173,104 +173,104 @@ _header: ""
 - 俯冲板片
 - 岛弧火山
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_48_28_20250326114828167.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513891.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_53_34_20250326115334050.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513892.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_49_45_20250326114945196.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513893.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_56_38_20250326115638823.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513894.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
-![center w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_50_55_20250326115055212.png)
-
-
----
-<!--层析成像基经典应用-->
-### 俯冲带成像
-
-![center w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_51_15_20250326115115362.png)
+![center w:600px](http://114.212.123.179:5009/api/images/20260130160513895.png)
 
 
 ---
 <!--层析成像基经典应用-->
 ### 俯冲带成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_51_35_20250326115135506.png)
+![center w:900px](http://114.212.123.179:5009/api/images/20260130160513896.png)
+
+
+---
+<!--层析成像基经典应用-->
+### 俯冲带成像
+
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513897.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 地幔柱成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_52_34_20250326115234608.png)
-
-
----
-<!--层析成像基经典应用-->
-### 地幔柱成像
-
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_54_58_20250326115458586.png)
-
----
-<!--层析成像基经典应用-->
-### 地幔柱成像
-
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_55_25_20250326115525701.png)
-
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513898.png)
 
 
 ---
 <!--层析成像基经典应用-->
 ### 地幔柱成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_58_0_20250326115800646.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513899.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 地幔柱成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_57_5_20250326115705888.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513900.png)
+
+
 
 ---
 <!--层析成像基经典应用-->
 ### 地幔柱成像
 
-![center](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_11_37_LLSVP.gif)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513901.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 地幔柱成像
 
-![center](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_58_39_20250326115839274.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513902.png)
+
+---
+<!--层析成像基经典应用-->
+### 地幔柱成像
+
+![center](http://114.212.123.179:5009/api/images/20260130160513903.gif)
+
+---
+<!--层析成像基经典应用-->
+### 地幔柱成像
+
+![center](http://114.212.123.179:5009/api/images/20260130160513904.png)
 
 
 
 ---
 <!--层析成像基经典应用-->
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_59_13_20250326115913515.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513905.png)
 
 ---
 <!--层析成像基经典应用-->
 ### 地震震源区成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_0_7_20250326120007577.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513906.png)
 
 ---
 
@@ -290,20 +290,20 @@ _header: ""
 <!--层析成像基前沿进展-->
 ### 地震波衰减成像
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_1_10_20250326120110372.png)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513907.png)
 
 
 ---
 <!--层析成像基前沿进展-->
 ### 全波形层析成像
 
-![center w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_1_53_20250326120153789.png)
+![center w:600px](http://114.212.123.179:5009/api/images/20260130160513908.png)
 
 ---
 <!--层析成像基前沿进展-->
 ### 全波形层析成像
 
-![center w:800px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_11_33_46_20250326113346059.png)
+![center w:800px](http://114.212.123.179:5009/api/images/20260130160513909.png)
 
 ---
 <!--层析成像基前沿进展-->
@@ -313,11 +313,11 @@ _header: ""
 
 ### 时变层析成像
 
-![center w:400](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_4_21_20250326120421659.png)
+![center w:400](http://114.212.123.179:5009/api/images/20260130160513910.png)
 
 </div><div>
 
-![center w:300](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_4_51_20250326120451265.png)
+![center w:300](http://114.212.123.179:5009/api/images/20260130160513911.png)
 
 </div></div>
 
@@ -325,9 +325,9 @@ _header: ""
 <!--层析成像基前沿进展-->
 ### 时变层析成像
 
-![center w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_7_50_20250326120750099.png)
+![center w:500px](http://114.212.123.179:5009/api/images/20260130160513912.png)
 
-![center w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_8_7_20250326120807779.png)
+![center w:500px](http://114.212.123.179:5009/api/images/20260130160513913.png)
 
 
 
@@ -335,7 +335,7 @@ _header: ""
 <!--层析成像基前沿进展-->
 
 
-![center w:700px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/26_12_32_15_c2c0f301e08148da86cadac79e320af8.gif)
+![center w:700px](http://114.212.123.179:5009/api/images/20260130160513914.gif)
 
 
 ---

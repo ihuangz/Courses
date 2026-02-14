@@ -14,7 +14,8 @@ footer: "**黄周传** **地球物理基础** **2025春**"
 
 #### 2025年春
 
-![logo GitHub Logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+![logo GitHub Logo](http://114.212.123.179:5009/api/images/20260130160517889.png)
+
 
 ---
 
@@ -81,7 +82,7 @@ _class: hLayout
 + ### column 2
 + $$\begin{vmatrix} 0&1&2\\ 3&4&5\\ 6&7&8 \end{vmatrix}$$
 + $$\begin{Vmatrix}0&1&2\\ 3&4&5\\ 6&7&8\end{Vmatrix}
- $$
+$$
 + $$ f(x)=\begin{cases} x+1, & x>0 \\ x^2 + 1, & x<0 \end{cases}$$
 - ### column 3
 - $$\begin{equation*}\begin{aligned}a^x−1 &\sim x\ln⁡a \\ \log_a​(x+1) &\sim \frac{x}{\ln a}​\end{aligned}\end{equation*}$$
@@ -100,7 +101,7 @@ _class: hLayout
   ### Column 1
 
 
-![center w:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
+![center w:400px](http://114.212.123.179:5009/api/images/20260130160517891.png) 
 
   </div>
   <div >
@@ -219,7 +220,7 @@ $$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\righ
 <div >
 
 
-![center w:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
+![center w:400px](http://114.212.123.179:5009/api/images/20260130160517891.png) 
 
 </div> 
 
@@ -249,7 +250,7 @@ _header: 多列
 
 ## Column 2
 
-![width:200px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/12_20_4_58_1.jpg)
+![width:200px](http://114.212.123.179:5009/api/images/20260130160517893.jpg)
 
 $$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right) = \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\} $$
 </div>
@@ -269,5 +270,4 @@ _header: ""
 
 # 谢谢!
 ### 黄周传 2025春
-
 

@@ -9,7 +9,7 @@ _paginate: false
 _class: homePage
 -->
 
-![h:120px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+![h:120px](http://114.212.123.179:5009/api/images/20260130160512331.png)
 
 # 8: 折射地震
 ## 南京大学 地球科学与工程学院
@@ -37,7 +37,7 @@ _class: contentPage horizontalLayout
 -->
 <div class="twocols">
 
-![w:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_16_19_39_20250320161939039.png) 
+![w:450px](http://114.212.123.179:5009/api/images/20260130160512332.png) 
 
 <p class="break"></p>
 
@@ -63,7 +63,7 @@ _class: contentPage horizontalLayout
 
 <div class="twocols">
 
-![width:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_17_11_24_20250320171124601.png) 
+![width:450px](http://114.212.123.179:5009/api/images/20260130160512333.png) 
 
 <p class="break"></p>
 
@@ -93,7 +93,7 @@ _class: contentPage horizontalLayout
 
 <div class="twocols">
 
-![width:450px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_17_17_7_20250320171707184.png)
+![width:450px](http://114.212.123.179:5009/api/images/20260130160512334.png)
 
 <p class="break"></p>
 
@@ -141,7 +141,7 @@ _class: contentPage horizontalImages
 
 | 低速层的屏蔽效应                                                                                                           | 无法探测高速薄层                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_51_40_20250320205140545.png)<br> | ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_52_59_20250320205259982.png) |
+| ![w:600px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_51_40_20250320205140545.png)<br> | ![w:600px](http://114.212.123.179:5009/api/images/20260130160512335.png) |
 
 
 ---
@@ -149,7 +149,7 @@ _class: contentPage horizontalImages
 _header: 多层介质折射波走时
 _class: contentPage horizontalImages
 -->
-![w:900px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_54_37_20250320205437168.png)
+![w:900px](http://114.212.123.179:5009/api/images/20260130160512336.png)
 
 
 
@@ -175,7 +175,7 @@ _class: contentPage horizontalLayout
 
 <div class="twocols">
 
-![width:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_19_3_31_20250320190331705.png)
+![width:500px](http://114.212.123.179:5009/api/images/20260130160512337.png)
 
 <p class="break"></p>
 
@@ -204,7 +204,7 @@ _class: contentPage horizontalLayout
 + 视速度： $v_u^*=v_1/\sin(\alpha-\varphi)$
 + 截距为： $t_{0u}=2h_u\cos\alpha/v_1$
 
-![width:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_19_3_31_20250320190331705.png)
+![width:500px](http://114.212.123.179:5009/api/images/20260130160512337.png)
 - ### 下倾方向
 - $$t_d=\frac{x\sin(\alpha+\varphi)}{v_1}+\frac{2h_d\cos\alpha}{v_1}$$
 
@@ -235,7 +235,7 @@ _class: contentPage horizontalLayout
 +  走时曲线都是直线
 +  走时间轴截距较大的为下倾方向
 +  视速度更小的为下倾方向
-![width:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_19_3_31_20250320190331705.png)
+![width:400px](http://114.212.123.179:5009/api/images/20260130160512337.png)
 
 ---
 <!--
@@ -279,7 +279,7 @@ $$h_u=\frac{v_1 t_{0u}}{2\cos\alpha}$$
 _header:  倾斜界面折射波走时
 _class: contentPage horizontalImages
 -->
-![width:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_33_37_20250320203337550.png) ![w:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_35_22_20250320203522348.png)
+![width:550px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_33_37_20250320203337550.png) ![w:550px](http://114.212.123.179:5009/api/images/20260130160512338.png)
 - 下倾方向： $t_d=\frac{x\sin(\alpha+\varphi)}{v_1}+\frac{2h_d\cos\alpha}{v_1}$
 
 - 上倾方向： $t_u=\frac{x\sin(\alpha-\varphi)}{v_1}+\frac{2h_u\cos\alpha}{v_1}$
@@ -294,7 +294,7 @@ _class: contentPage
 -->
 <div class="twocols">
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_42_53_20250320204253338.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512339.png)
 
 <p class="break"></p>
 
@@ -317,7 +317,7 @@ _class: contentPage
 
 <div class="twocols">
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_20_45_17_20250320204516992.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512340.png)
 
 <p class="break"></p>
 
@@ -359,7 +359,7 @@ _class: contentPage horizontalImages
 
 <br/>
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_10_42_13_20250321104213758.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512341.png)
 
 <p class="break"></p>
 
@@ -395,7 +395,7 @@ _class: contentPage horizontalImages
 
 <br/>
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_10_42_13_20250321104213758.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512341.png)
 
 <p class="break"></p>
 
@@ -427,7 +427,7 @@ _class: contentPage horizontalImages
 
 <br/>
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_10_42_13_20250321104213758.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512341.png)
 
 <p class="break"></p>
 
@@ -481,7 +481,7 @@ _class: contentPage horizontalImages
 ### 接收函数：$y=f(x)$
 - 利用转换波与直达波的时间差，推测地球深度速度间断面的深度
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_10_58_51_20250321105851541.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512342.png)
 
 </div>
 
@@ -489,7 +489,7 @@ _class: contentPage horizontalImages
 
 <br/>
 
-![w:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_10_59_30_20250321105930684.png)
+![w:500px](http://114.212.123.179:5009/api/images/20260130160512343.png)
 
 </div>
 
@@ -503,7 +503,7 @@ _class: contentPage horizontalImages
 -->
 
 - ### 四川龙门山下方的地壳结构
-![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_11_3_13_20250321110313515.png)
+![h:500px](http://114.212.123.179:5009/api/images/20260130160512344.png)
 
 
 ---
@@ -513,7 +513,7 @@ _class: contentPage horizontalImages
 -->
 
 - ### 俯冲带结构
-![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_11_5_57_20250321110557282.png)
+![h:500px](http://114.212.123.179:5009/api/images/20260130160512345.png)
 
 
 ---
@@ -523,7 +523,7 @@ _class: contentPage horizontalImages
 -->
 
 - ### 地幔转换带结构
-![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_11_6_53_20250321110653968.png)
+![h:500px](http://114.212.123.179:5009/api/images/20260130160512346.png)
 
 
 ---
@@ -533,7 +533,7 @@ _class: contentPage horizontalImages
 -->
 
 - ### 岩石圈结构
-![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/21_11_7_13_20250321110713239.png)
+![h:500px](http://114.212.123.179:5009/api/images/20260130160512347.png)
 
 
 ---

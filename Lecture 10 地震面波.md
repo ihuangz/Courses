@@ -15,7 +15,7 @@ footer: "**黄周传** **地球物理基础** **2025春**"
 
 #### 2025年春
 
-![logo](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/03/20_15_11_47_njulogopurple.png)
+![logo](http://114.212.123.179:5009/api/images/20260130160501839.png)
 
 
 ---
@@ -35,7 +35,7 @@ _header: ""
 _class: hLayout
 -->
 
-- ![h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_16_20_20250408191620845.png)
+- ![h:400px](http://114.212.123.179:5009/api/images/20260130160501840.png)
 - 面波振幅最大，能量最强
 
 
@@ -57,7 +57,7 @@ _class: hLayout
 -->
 
 浅震P-SV波场
-![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_22_11_20250408192211044.png)
+![h:500px](http://114.212.123.179:5009/api/images/20260130160501841.png)
 
 
 ---
@@ -136,7 +136,7 @@ _class: hLayout
 	* 从地震沿**小圆弧**路径到达台站的瑞利波记为 R1, R3, R5, ...
 	* 从地震沿**大圆弧**路径到达台站的瑞利波记为 R2, R4, R6, ...
 
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_12_30_20250408201229845.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160501844.png)
 
 
 ---
@@ -144,7 +144,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![w:600](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_15_46_20250408201546653.png)
+![w:600](http://114.212.123.179:5009/api/images/20260130160501845.png)
 
  >### 体波（P、S）在三维空间传播
 > - 距震源r处的体波能流密度为：$I_b=E_b/2\pi r^2$
@@ -173,16 +173,16 @@ _header: ""
 _class: hLayout
 -->
 
- ![h:400px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_16_20_20250408191620845.png)
+ ![h:400px](http://114.212.123.179:5009/api/images/20260130160501840.png)
 
 ---
 <!-- header: 面波频散曲线
 _class: hLayout
 -->
 
- ![h:300px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_16_20_20250408191620845.png)
+ ![h:300px](http://114.212.123.179:5009/api/images/20260130160501840.png)
 
-* ![h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_36_3_20250408193603728.png)
+* ![h:500px](http://114.212.123.179:5009/api/images/20260130160501846.png)
 
 ---
 <!-- header: 面波频散曲线
@@ -195,7 +195,7 @@ _class: hLayout
 
 - ![h:300px](https://box.nju.edu.cn/f/c2c91895df114c5ebdc0/?dl=1)
 
-+ ![w:700px h:500px](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_19_36_3_20250408193603728.png)
++ ![w:700px h:500px](http://114.212.123.179:5009/api/images/20260130160501846.png)
 
 ---
 <!-- header: 面波频散曲线
@@ -231,7 +231,7 @@ _class: hLayout
 <!-- header: 面波频散曲线
 _class: hLayout
 -->
-![](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_6_49_20250408200649414.png)
+![](http://114.212.123.179:5009/api/images/20260130160501851.png)
 
 ---
 <!--
@@ -261,7 +261,7 @@ _class: hLayout
 -->
 
 二维相速度/群速度反演 <font color="#ff0000">$\Rightarrow$获得各个网格点的频散曲线 </font>
-![](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_3_38_20250408200338406.png)
+![](http://114.212.123.179:5009/api/images/20260130160501852.png)
 
 
 ---
@@ -274,11 +274,11 @@ _class:
 <div class=columns>
 <div>
 
-- ![image.png h:400](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_7_47_20250408200746657.png)
+- ![image.png h:400](http://114.212.123.179:5009/api/images/20260130160501853.png)
 
 </div><div>
 
-* ![image.png h:400](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_8_21_20250408200821704.png)
+* ![image.png h:400](http://114.212.123.179:5009/api/images/20260130160501854.png)
 </div></div>
 
 ---
@@ -287,11 +287,11 @@ _class: hLayout
 -->
 
 体波成像的缺陷
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_23_37_20250408202337744.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160501855.png)
 
-+ ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_24_5_20250408202405409.png)
++ ![image.png](http://114.212.123.179:5009/api/images/20260130160501856.png)
 
-* ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_24_24_20250408202423904.png)
+* ![image.png](http://114.212.123.179:5009/api/images/20260130160501857.png)
 
 
 ---
@@ -301,13 +301,13 @@ _class: hLayout
 
 
 体波成像的缺陷
-![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_23_37_20250408202337744.png)
+![image.png](http://114.212.123.179:5009/api/images/20260130160501855.png)
 
 
 + 面波的优势
-+ ![image.png w:400](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_26_22_20250408202622142.png)
++ ![image.png w:400](http://114.212.123.179:5009/api/images/20260130160501858.png)
 
-* ![image.png](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_26_36_20250408202636297.png)
+* ![image.png](http://114.212.123.179:5009/api/images/20260130160501859.png)
 
 
 ---
@@ -327,7 +327,7 @@ _header: ""
 _class: hLayout
 -->
 
-![image.png w:800](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_37_11_20250408203711360.png)
+![image.png w:800](http://114.212.123.179:5009/api/images/20260130160501860.png)
 
 
 ---
@@ -335,9 +335,9 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png w:400](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_30_11_20250408203011705.png)
+![image.png w:400](http://114.212.123.179:5009/api/images/20260130160501861.png)
 
-* ![image.png h:600](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_30_21_20250408203020963.png)
+* ![image.png h:600](http://114.212.123.179:5009/api/images/20260130160501862.png)
 
 
 ---
@@ -345,7 +345,7 @@ _class: hLayout
 _class: hLayout
 -->
 
-![image.png h:600](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_31_5_20250408203105000.png)
+![image.png h:600](http://114.212.123.179:5009/api/images/20260130160501863.png)
 
 
 ---
@@ -354,7 +354,7 @@ _class: hLayout
 -->
 
 结构时变探测
-![image.png h:500](https://git.nju.edu.cn/huangz/images/-/raw/main/pictures/2025/04/8_20_32_56_20250408203255962.png)
+![image.png h:500](http://114.212.123.179:5009/api/images/20260130160501864.png)
 
 
 ---
